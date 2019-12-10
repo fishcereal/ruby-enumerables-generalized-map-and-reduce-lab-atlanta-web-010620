@@ -8,9 +8,11 @@ def map(array)
   return array 
 end
 
-def reduce (array,starting_value=0)
-  if starting_value == nil 
-    starting_value = 0 
+def reduce (array,starting_value=nil)
+  if starting_value != nil 
+    num = starting_value
+  else 
+    num = 0 
   end 
   i = 0 
   num = starting_value
