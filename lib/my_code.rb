@@ -19,11 +19,15 @@ def reduce (array,starting_value=0)
     i+=1 
   end
   
-  if type(num) != 
-  p num 
-  p starting_value
-  num +=starting_value
-  return num
+  if type(num) != 'int'
+    return num 
+  else 
+    return num+starting_value
+  # end 
+  # p num 
+  # p starting_value
+  # num +=starting_value
+  # return num
 end 
 
 # Failure/Error: expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
