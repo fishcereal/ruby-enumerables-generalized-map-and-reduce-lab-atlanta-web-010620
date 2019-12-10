@@ -13,7 +13,7 @@ def reduce (array,starting_value=0)
     starting_value = 0 
   end 
   i = 0 
-  num = 0 
+  num = starting_value
   while i < array.length do 
     num = yield(array[i],num)
     i+=1 
@@ -25,9 +25,9 @@ def reduce (array,starting_value=0)
   #   num+=starting_value
   #   return num
   # end 
-  p "num is #{num}" 
-  p "starting value is #{starting_value}"
-  num +=starting_value
+  # p "num is #{num}" 
+  # p "starting value is #{starting_value}"
+  # num +=starting_value
   return num
 end 
 
