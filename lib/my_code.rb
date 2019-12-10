@@ -18,6 +18,8 @@ def reduce (array,starting_value=0)
     num = yield(array[i],num)
     i+=1 
   end
+  
+  if 
   p num 
   p starting_value
   num +=starting_value
