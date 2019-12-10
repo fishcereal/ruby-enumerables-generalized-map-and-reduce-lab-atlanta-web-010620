@@ -23,7 +23,7 @@ def reduce (array,starting_value=0)
     return num 
   else 
     return num+starting_value
-  # end 
+  end 
   # p num 
   # p starting_value
   # num +=starting_value
