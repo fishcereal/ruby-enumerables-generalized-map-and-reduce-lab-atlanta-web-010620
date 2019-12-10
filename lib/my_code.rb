@@ -25,8 +25,8 @@ def reduce (array,starting_value=0)
   #   num+=starting_value
   #   return num
   # end 
-  p num 
-  p starting_value
+  p "num is #{num}" 
+  p "starting value is #{starting_value}"
   num +=starting_value
   return num
 end 
