@@ -19,7 +19,7 @@ def reduce (array,starting_value=0)
     i+=1 
   end
   
-  if 
+  if type(num) != 
   p num 
   p starting_value
   num +=starting_value
