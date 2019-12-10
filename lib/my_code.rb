@@ -20,5 +20,3 @@ def reduce (array,starting_value=0)
   end
   return num
 end 
-
-# Failure/Error: expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
