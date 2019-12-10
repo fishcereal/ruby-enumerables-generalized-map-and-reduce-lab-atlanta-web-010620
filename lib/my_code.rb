@@ -20,7 +20,7 @@ def reduce (array,starting_value=nil)
     i+=1 
   end
   if num == nil 
-    p 'it is nil'
+    return false 
   end
   return num
 end 
