@@ -17,8 +17,10 @@ def reduce (array,starting_value=0)
   while i < array.length do 
     num = yield(array[i],num)
     i+=1 
-  end 
-  return num+starting_value
+    
+  end
+  num +=starting_value
+  return num
 end 
 
 # Failure/Error: expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
