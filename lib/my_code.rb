@@ -22,7 +22,7 @@ def reduce (array,starting_value=0)
   end 
   
   # yield(grand_total,starting_value)
-  return grand_total+starting_value
+  return num+starting_value
   
 end 
 
