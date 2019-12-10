@@ -14,8 +14,9 @@ def reduce (array,starting_value=0)
   end 
   i = 0 
   grand_total = 0 
+  num = 0 
   while i < array.length do 
-    array[i] = yield(array[i],grand_total)
+    array[i] = yield(num,array[i])
     # grand_total = yield(array[i],starting_value)
     i+=1 
   end 
