@@ -19,5 +19,8 @@ def reduce (array,starting_value=nil)
     num = yield(array[i],num)
     i+=1 
   end
+  if num == nil 
+    num = 'false'
+  end
   return num
 end 
